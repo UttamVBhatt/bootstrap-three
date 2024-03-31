@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+body {
+  font-family: "Tilt Warp", cursive;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+#active:hover {
+  color: aqua;
+}
+
+#active {
+  color: aqua;
+}
+
+#imagee {
+  position: relative;
+  top: -450px;
+}
+
+div > h1 {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 365px) {
+  #brn {
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+  }
+}
+
+header {
+  height: 780px;
+}
+
+#ppp {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1280px) {
+  #card1 {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  #card2 {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  #card3 {
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  #card4 {
+    width: 80%;
+    margin-top: 15px;
+  }
+}
+
+#iii {
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 1005px) {
+  #imagediv {
+    width: 50%;
+  }
+
+  #textdiv {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #imagediv {
+    width: 100%;
+  }
+
+  #textdiv {
+    width: 100%;
+  }
+
+  #iii {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  #imagediv {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  #imagediv {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #imagediv {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  #imagediv {
+    padding-left: 55px;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  #imagediv {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #imagediv {
+    justify-content: start;
+  }
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
